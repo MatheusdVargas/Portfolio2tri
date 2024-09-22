@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0a001b;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 600px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bemvindo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navegacao ul {
+  margin-top: 2%;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  display: flex;
+}
+
+.navegacao li {
+  margin-right: 50px;
+}
+.perfil ul {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+}
+
+.introducao {
+  background-color: #fff;
+  width: 100vw;
+  margin: 0;
+  margin-top: 3%;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+.introducao h2 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.introducao p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+
+  max-width: 800px;
+  margin: 20px auto; 
+}

@@ -77,4 +77,17 @@ a {
   font-size: 24px;
   max-width: 800px;
   margin: 20px auto; 
+  
+}
+.conteudo ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  list-style-type: none;
+  color: black;
+}
+.conteudo li {
+  margin-bottom: 2%;
+}
+.conteudo a {
+  color: black;
 }
